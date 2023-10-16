@@ -1,9 +1,10 @@
 import React,{ useState, useEffect } from 'react'
+import Papa from 'papaparse';
 
 
 function App() {
 
-  const [data,setData] = useState(null);
+  const [data,setData] = useState([{}]);
 
   useEffect(()=>{
     fetch('http://localhost:8000/members', {
@@ -26,9 +27,61 @@ function App() {
   });
 
   },[])
+  function handleFileUpload(event) {
+    const file = event.target.files[0];
+  
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const data = e.target.result;
+  
+        // Parse the CSV data
+        Papa.parse(data, {
+          complete: (result) => {
+            // Process the parsed data
+            processCSVData(result.data);
+          },
+          header: true, // Set this to true if the first row contains headers
+        });
+      };
+  
+      reader.readAsText(file);
+    }
+  }
+  function processCSVData(data) {
+    fetch('http://localhost:8000/upload-csv', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      credentials: 'include', // Add this line to include credentials
+      body: JSON.stringify(data), // Convert the parsed data to JSON
+    })
+      .then(response => {
+        if (response.ok) {
+          // Data was successfully sent to the server
+          console.log('Data sent successfully.');
+        } else {
+          // Handle errors if the server returns an error status
+          console.error('Error sending data to the server.');
+
+          // Log the server's response
+          response.text().then(data => {
+            console.error('Server Response:', data);
+          });
+        }
+      })
+      .catch(error => {
+        // Handle network errors or other issues
+        console.error('Network error:', error);
+      });
+  }
 
   return (
-    <div>App</div>
+    <div>App
+      <input type="file" onChange={handleFileUpload} />
+
+    </div>
   )
 }
 
