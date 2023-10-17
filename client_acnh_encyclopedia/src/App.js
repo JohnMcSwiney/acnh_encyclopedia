@@ -49,7 +49,7 @@ function App() {
     }
   }
   function processCSVData(data) {
-    fetch('http://localhost:8000/upload-csv', {
+    fetch('http://localhost:8000/upload-json', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -80,7 +80,8 @@ function App() {
   return (
     <div>App
       <input type="file" onChange={handleFileUpload} />
-
+      <img src='https://dodo.ac/np/images/thumb/d/de/Suckerfish_NH_Icon.png/120px-Suckerfish_NH_Icon.png'
+      />
     </div>
   )
 }

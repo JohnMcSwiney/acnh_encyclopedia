@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import csv
+import json
 
 # URL of the web page to scrape
 url = 'https://nookipedia.com/wiki/Category:New_Horizons_fish_icons'
@@ -16,17 +16,16 @@ if response.status_code == 200:
     # Find all image tags on the page
     image_tags = soup.find_all('img')
 
-    # Extract the 'src' attribute from each image tag to get the image link
+    # Extract the 'src' attribute from each image tag to get the image links
     image_links = [img['src'] for img in image_tags]
 
-    # Save the image links to a CSV file
-    with open('image_links.csv', 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(['Image Links'])  # Write a header row
+    # Create a dictionary with a "urls" key and the image links as its value
+    data = {"urls": image_links}
 
-        for link in image_links:
-            writer.writerow([link])  # Write each image link to a new row
+    # Save the data to a JSON file
+    with open('image_links.json', 'w') as json_file:
+        json.dump(data, json_file, indent=4)
 
-    print("Image links saved to 'image_links.csv'")
+    print("Image links saved to 'image_links.json'")
 else:
     print(f"Failed to retrieve the web page. Status code: {response.status_code}")
