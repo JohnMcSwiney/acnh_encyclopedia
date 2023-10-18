@@ -25,15 +25,13 @@ with open('image_links.json', 'r') as json_file:
 combined_data = []
 unmatched_fish = []  # List to store fish without matching URLs
 
-for fish_info in fish_data["data"]:
+for fish_info in fish_data:
     name = fish_info["Fish"]
-    cleaned_name = name  # Clean and normalize the fish name
     found_match = False  # Flag to track if a match is found for the current fish
 
     for url in urls:
-        pattern = re.escape(cleaned_name)
-        cleaned_url = clean_string(url)  # Clean and normalize the URL for matching
-        if re.search(pattern, cleaned_url):
+        pattern = re.escape(name)
+        if re.search(pattern, url):
             combined_data.append({"name": name, "url": url})
             found_match = True
 
@@ -41,37 +39,20 @@ for fish_info in fish_data["data"]:
     if not found_match:
         unmatched_fish.append(name)
 
-# print(split_and_clean_names(unmatched_fish))
-# Handle unmatched fish by splitting and checking for sub-parts in URLs
+# Handle unmatched fish
 for fish_name in unmatched_fish:
-    missing_fish_tuples  = split_and_clean_names(fish_name)
+    missing_fish_tuples = split_and_clean_names(fish_name)
     matched_urls = []
     print(missing_fish_tuples)
+    for url in urls:
+        if all(part in url for part in missing_fish_tuples):
+            matched_urls.append(url)
 
-    # Define a regular expression pattern to match the first and last items of each tuple
-    # pattern = "|".join([re.escape(part) for part in [t[0] for t in missing_fish_tuples] + [t[-1] for t in missing_fish_tuples]])
-
-    # for url in urls:
-    #     cleaned_url = url
-    #     if re.search(pattern, cleaned_url):
-    #         # Iterate through the missing fish tuples and find the matching ones
-    #         for missing_fish_tuple in missing_fish_tuples:
-    #             if cleaned_url.find(missing_fish_tuple[0]) != -1 and cleaned_url.find(missing_fish_tuple[-1]) != -1:
-    #                 # If both the first and last parts are found in the URL, consider it a match
-    #                 combined_data.append({"name": " ".join(missing_fish_tuple), "url": url})
-
+    if matched_urls:
+        combined_data.extend([{"name": fish_name, "url": url} for url in matched_urls])
 
 # Save the combined_data list to a JSON file
 with open('matched_data.json', 'w') as output_json_file:
     json.dump(combined_data, output_json_file, indent=4)
 
-print("Matching results with cleaned and normalized fish names saved to matched_data.json")
-
-# for fish_info in fish_data["data"]:
-#     name = fish_info["Fish"]
-#     matching_urls = []
-#     for url in urls:
-#         if name.lower() in url.lower():
-#             matching_urls.append(url)
-#     if not matching_urls:
-#         print(f"Fish '{name}' has no matching URLs")
+print("Matching results saved to matched_data.json")
