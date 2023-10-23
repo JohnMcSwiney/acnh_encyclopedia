@@ -49,7 +49,7 @@ for fish_info in fish_data:
                     index = url[1].lower().find(fish_tuples[0].lower())
                     # Look for name in url, if match add and mark url as used
                     if index > 0:
-                        combined_data.append({"name": name, "url": url})#
+                        combined_data.append({"Fish": name, "IconUrl": url[1]})#
                         foundUrls.append(url[1])
                         isFound = True
                         break
@@ -61,7 +61,7 @@ for fish_info in fish_data:
                     index2 = url[1].lower().find(fish_tuples[2].lower())
                     # Look for name in url, if match add and mark url as used
                     if index > 0 and index2 > 0:
-                        combined_data.append({"name": name, "url": url})
+                        combined_data.append({"Fish": name, "IconUrl": url[1]})
                         foundUrls.append(url[1])
                         isFound = True
                         break 
@@ -88,15 +88,35 @@ for orphan_fish in unMatched_fish:
             index = url[1].lower().find(short_str.lower())
             if index > 0:
                 print('fish found ', orphan_fish," ",  url[1])
-                combined_data.append({"name": orphan_fish, "url": url})
+                combined_data.append({"Fish": orphan_fish, "IconUrl": url[1]})
                 foundUrls.append(url[1])
                 isFound = True
                 break
             
 
 # check length of fish and merged fish
-print(len(fish_data))
-print(len(combined_data))
+if len(fish_data) == len(combined_data):
+    print('Lists are the same!')
+    completedFish = []
+    # Success! Lets pair them all up!
+    for fish in fish_data:
+        for fishIcons in combined_data:   
+            if fishIcons['Fish'].lower() == fish['Fish'].lower():
+                completedFish.append({"Fish": fish['Fish'],
+                                      "Price": fish['Price'], 
+                                      "Shadow": fish['Shadow'],
+                                      "Location": fish['Location'],
+                                      "Time": fish['Time'],
+                                      "North Hem.": fish['North Hem.'],
+                                      "South Hem.": fish['South Hem.'],
+                                      "IconUrl": fishIcons['IconUrl']})
+                
+    
+    # after completing all the fish, save to a new json
+    with open('fish_data_complete.json', 'w') as output_json_file:
+        json.dump(completedFish, output_json_file, indent=4)
+    print("Completed fish saved to fish_data_complete.json")
+    
 
 # Save the combined_data list to a JSON file
 with open('matched_data.json', 'w') as output_json_file:
