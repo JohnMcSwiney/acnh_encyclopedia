@@ -1,0 +1,57 @@
+/* Home Page 1 -  */
+.selector__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.selector__box > button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    opacity: 0.7;
+    box-sizing: border-box;
+    border: 3px solid rgba(255, 255, 255, 0.39);
+    transition: 0.15s, smooth;
+    
+}
+.selected{
+    border: 3px solid rgb(255, 255, 255) !important;
+    opacity: 1  !important;
+}
+
+.selector__box > button:hover{
+    box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.426); 
+    border: 3px solid rgb(255, 255, 255);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.fish__btn{
+    background-color: var(--celestial-blue);
+    color: white;
+}
+.bug__btn{
+    background-color: var(--dark-spring-green);
+    /* color: rgb(71, 71, 71); */
+    color: white;
+}
+.dive__btn{
+    background-color: var(--violet-jtc);
+    color: white;
+    
+}
+.hidden__btn {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    z-index: -50;
+}

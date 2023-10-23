@@ -1,7 +1,7 @@
 /* Header 1 -  */
 .header__container{
     width: 100%;
-    background-color: var(--violet-jtc);
+    background-color: var(--wenge);
     color: white;
     font-weight: bold;
     display: flex;
@@ -19,4 +19,9 @@
     margin-right: 15px; /* scrollbar*/
     padding-left: 10px;
     padding-right: 10px;
+}
+.header__container .leaf{
+    color: green;
+    /* text-shadow: 1px 1px 3px rgba(200, 200, 200, 0.426); */
+
 }

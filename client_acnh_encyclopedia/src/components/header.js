@@ -5,7 +5,7 @@ import './ComponentStyles.css'
 function Header() {
   return (
     <div className='header__container'>
-        <h1><FaLeaf/> NH Encyclopedia</h1>
+        <h1><FaLeaf className='leaf'/> NH Encyclopedia</h1>
         <p>Johnny McSwiney 2023</p> 
     </div>
   )
