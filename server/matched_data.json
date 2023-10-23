@@ -537,5 +537,26 @@
             79,
             "https://dodo.ac/np/images/thumb/8/85/Zebra_Turkeyfish_NH_Icon.png/120px-Zebra_Turkeyfish_NH_Icon.png"
         ]
+    },
+    {
+        "name": "Clownfish",
+        "url": [
+            17,
+            "https://dodo.ac/np/images/thumb/4/4f/Clown_Fish_NH_Icon.png/120px-Clown_Fish_NH_Icon.png"
+        ]
+    },
+    {
+        "name": "Great White Shark",
+        "url": [
+            32,
+            "https://dodo.ac/np/images/thumb/2/20/Great_White_Shark_NH_Icon.png/120px-Great_White_Shark_NH_Icon.png"
+        ]
+    },
+    {
+        "name": "Seahorse",
+        "url": [
+            65,
+            "https://dodo.ac/np/images/thumb/d/dc/Sea_Horse_NH_Icon.png/120px-Sea_Horse_NH_Icon.png"
+        ]
     }
 ]
