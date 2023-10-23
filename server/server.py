@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(
     app,
     resources={
-        r"/members/*": {
+        r"/fish/*": {
             "origins": "http://localhost:3000",
             "allow_headers": ["Content-Type"],
             "supports_credentials": True,
@@ -28,10 +28,15 @@ CORS(
 
 
 # Members API route with a docstring
-@app.route("/members")
-def members():
-    """Get a list of members."""
-    return {"members": ["member1", "member2", "member3"]}
+@app.route("/fish")
+def fish():
+    """Get a list of fish."""
+    with open('fish_data_complete.json', 'r') as json_file:
+        fish_data = json.load(json_file)
+        
+    return fish_data
+
+
 
 
 # Upload JSON route with improved error handling

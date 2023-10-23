@@ -1,7 +1,7 @@
-/* Header 1 -  */
+/* Header 1 - 27 */
 .header__container{
     width: 100%;
-    background-color: var(--wenge);
+    background-color: var(--bistre);
     color: white;
     font-weight: bold;
     display: flex;
@@ -24,4 +24,39 @@
     color: green;
     /* text-shadow: 1px 1px 3px rgba(200, 200, 200, 0.426); */
 
+}
+
+/* FishCard 29 - */
+.fish__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid grey;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.087);
+    border-radius: 5px;
+
+}
+.fish__card:hover{
+    /* transform: scale(0.9); */
+    border: 5px solid var(--celestial-blue);
+    opacity: 1;
+
+
+    transition: .2s;
+    box-shadow: var(--celestial-blue)  0px 0px 4px inset;
+}
+.fish__card:hover img{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: .2s;
+    /* box-shadow: black 1px 1px 1px; */
+}
+.card__selected{
+    border: 2px solid rgb(0, 0, 0) !important;
 }
