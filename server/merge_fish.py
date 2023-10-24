@@ -107,8 +107,8 @@ if len(fish_data) == len(combined_data):
                                       "Shadow": fish['Shadow'],
                                       "Location": fish['Location'],
                                       "Time": fish['Time'],
-                                      "North Hem.": fish['North Hem.'],
-                                      "South Hem.": fish['South Hem.'],
+                                      "NorthHem": fish['North Hem.'],
+                                      "SouthHem": fish['South Hem.'],
                                       "IconUrl": fishIcons['IconUrl']})
                 
     

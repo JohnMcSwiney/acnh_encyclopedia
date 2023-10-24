@@ -32,14 +32,15 @@
     align-items: center;
     justify-content: center;
     border: 0.1px solid grey;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     box-sizing: border-box;
-    flex-basis: 200px;
+    flex-basis: 150px;
     flex-grow: 0;
     flex-shrink: 0;
     background-color: rgba(0, 0, 0, 0.087);
     border-radius: 5px;
+    transition: .2s;
 
 }
 .fish__card:hover{
@@ -48,15 +49,18 @@
     opacity: 1;
 
 
-    transition: .2s;
+    transition: .05s;
     box-shadow: var(--celestial-blue)  0px 0px 4px inset;
+}
+.fish__card img{
+    transition: .2s;
 }
 .fish__card:hover img{
     transform: scale(1.1);
     opacity: 1;
-    transition: .2s;
+    transition: .05s;
     /* box-shadow: black 1px 1px 1px; */
 }
 .card__selected{
-    border: 2px solid rgb(0, 0, 0) !important;
+    border: 2px solid rgb(255, 248, 43) !important;
 }

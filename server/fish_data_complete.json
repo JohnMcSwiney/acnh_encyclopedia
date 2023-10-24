@@ -5,8 +5,8 @@
         "Shadow": "Small",
         "Location": "Ocean",
         "Time": "4 AM - 9 PM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/7/7f/Anchovy_%28Fish%29_NH_Icon.png/120px-Anchovy_%28Fish%29_NH_Icon.png"
     },
     {
@@ -15,8 +15,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "May - Oct",
-        "South Hem.": "Nov - Apr",
+        "NorthHem": "May - Oct",
+        "SouthHem": "Nov - Apr",
         "IconUrl": "https://dodo.ac/np/images/thumb/c/cd/Angelfish_NH_Icon.png/120px-Angelfish_NH_Icon.png"
     },
     {
@@ -25,8 +25,8 @@
         "Shadow": "Largest",
         "Location": "River",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "June - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "June - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/b/b1/Arapaima_NH_Icon.png/120px-Arapaima_NH_Icon.png"
     },
     {
@@ -35,8 +35,8 @@
         "Shadow": "Large",
         "Location": "River",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "June - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "June - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/6/67/Arowana_NH_Icon.png/120px-Arowana_NH_Icon.png"
     },
     {
@@ -45,8 +45,8 @@
         "Shadow": "Medium",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Mar - Nov",
-        "South Hem.": "Sept - May",
+        "NorthHem": "Mar - Nov",
+        "SouthHem": "Sept - May",
         "IconUrl": "https://dodo.ac/np/images/thumb/d/d5/Barred_Knifejaw_NH_Icon.png/120px-Barred_Knifejaw_NH_Icon.png"
     },
     {
@@ -55,8 +55,8 @@
         "Shadow": "Small",
         "Location": "Ocean",
         "Time": "9 PM - 4 AM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/e0/Barreleye_NH_Icon.png/120px-Barreleye_NH_Icon.png"
     },
     {
@@ -65,8 +65,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "May - Oct",
-        "South Hem.": "Nov - Apr",
+        "NorthHem": "May - Oct",
+        "SouthHem": "Nov - Apr",
         "IconUrl": "https://dodo.ac/np/images/thumb/0/0b/Betta_NH_Icon.png/120px-Betta_NH_Icon.png"
     },
     {
@@ -75,8 +75,8 @@
         "Shadow": "Smallest",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "Nov - Mar",
-        "South Hem.": "May - Sept",
+        "NorthHem": "Nov - Mar",
+        "SouthHem": "May - Sept",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/4d/Bitterling_NH_Icon.png/120px-Bitterling_NH_Icon.png"
     },
     {
@@ -85,8 +85,8 @@
         "Shadow": "Large",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/0/00/Black_Bass_NH_Icon.png/120px-Black_Bass_NH_Icon.png"
     },
     {
@@ -95,8 +95,8 @@
         "Shadow": "Medium",
         "Location": "Ocean",
         "Time": "9 PM - 4 AM",
-        "North Hem.": "Nov - Feb",
-        "South Hem.": "May - Aug",
+        "NorthHem": "Nov - Feb",
+        "SouthHem": "May - Aug",
         "IconUrl": "https://dodo.ac/np/images/thumb/9/95/Blowfish_NH_Icon.png/120px-Blowfish_NH_Icon.png"
     },
     {
@@ -105,8 +105,8 @@
         "Shadow": "X Large",
         "Location": "Pier",
         "Time": "All day",
-        "North Hem.": "Nov - Apr\r\n July - Sept",
-        "South Hem.": "Jan - Mar\r\n May - Oct",
+        "NorthHem": "Nov - Apr\r\n July - Sept",
+        "SouthHem": "Jan - Mar\r\n May - Oct",
         "IconUrl": "https://dodo.ac/np/images/thumb/2/2a/Blue_Marlin_NH_Icon.png/120px-Blue_Marlin_NH_Icon.png"
     },
     {
@@ -115,8 +115,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/0/0c/Bluegill_NH_Icon.png/120px-Bluegill_NH_Icon.png"
     },
     {
@@ -125,8 +125,8 @@
         "Shadow": "Small",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Apr - Sept",
-        "South Hem.": "Oct - Mar",
+        "NorthHem": "Apr - Sept",
+        "SouthHem": "Oct - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/47/Butterfly_Fish_NH_Icon.png/120px-Butterfly_Fish_NH_Icon.png"
     },
     {
@@ -135,8 +135,8 @@
         "Shadow": "Large",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/5/5d/Carp_NH_Icon.png/120px-Carp_NH_Icon.png"
     },
     {
@@ -145,8 +145,8 @@
         "Shadow": "Large",
         "Location": "Pond",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "May - Oct",
-        "South Hem.": "Nov - Apr",
+        "NorthHem": "May - Oct",
+        "SouthHem": "Nov - Apr",
         "IconUrl": "https://dodo.ac/np/images/thumb/0/0d/Catfish_NH_Icon.png/120px-Catfish_NH_Icon.png"
     },
     {
@@ -155,8 +155,8 @@
         "Shadow": "Medium",
         "Location": "River (Clifftop)",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Mar - June\r\n Sept - Nov",
-        "South Hem.": "Mar - May\r\n Sept - Dec",
+        "NorthHem": "Mar - June\r\n Sept - Nov",
+        "SouthHem": "Mar - May\r\n Sept - Dec",
         "IconUrl": "https://dodo.ac/np/images/thumb/8/80/Char_NH_Icon.png/120px-Char_NH_Icon.png"
     },
     {
@@ -165,8 +165,8 @@
         "Shadow": "Medium",
         "Location": "River (Clifftop)",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Mar - June\r\n Sept - Nov",
-        "South Hem.": "Mar - May\r\n Sept - Dec",
+        "NorthHem": "Mar - June\r\n Sept - Nov",
+        "SouthHem": "Mar - May\r\n Sept - Dec",
         "IconUrl": "https://dodo.ac/np/images/thumb/d/db/Cherry_Salmon_NH_Icon.png/120px-Cherry_Salmon_NH_Icon.png"
     },
     {
@@ -175,8 +175,8 @@
         "Shadow": "Smallest",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Apr - Sept",
-        "South Hem.": "Oct - Mar",
+        "NorthHem": "Apr - Sept",
+        "SouthHem": "Oct - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/4f/Clown_Fish_NH_Icon.png/120px-Clown_Fish_NH_Icon.png"
     },
     {
@@ -185,8 +185,8 @@
         "Shadow": "Largest",
         "Location": "Ocean (Rain)",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/45/Coelacanth_NH_Icon.png/120px-Coelacanth_NH_Icon.png"
     },
     {
@@ -195,8 +195,8 @@
         "Shadow": "Small",
         "Location": "Pond",
         "Time": "All day",
-        "North Hem.": "Apr - Sept",
-        "South Hem.": "Oct - Mar",
+        "NorthHem": "Apr - Sept",
+        "SouthHem": "Oct - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/9/96/Crawfish_NH_Icon.png/120px-Crawfish_NH_Icon.png"
     },
     {
@@ -205,8 +205,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/f/f2/Crucian_Carp_NH_Icon.png/120px-Crucian_Carp_NH_Icon.png"
     },
     {
@@ -215,8 +215,8 @@
         "Shadow": "Medium",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Oct - Apr",
-        "South Hem.": "Apr - Oct",
+        "NorthHem": "Oct - Apr",
+        "SouthHem": "Apr - Oct",
         "IconUrl": "https://dodo.ac/np/images/thumb/1/1f/Dab_NH_Icon.png/120px-Dab_NH_Icon.png"
     },
     {
@@ -225,8 +225,8 @@
         "Shadow": "Medium",
         "Location": "River",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/d/db/Dace_NH_Icon.png/120px-Dace_NH_Icon.png"
     },
     {
@@ -235,8 +235,8 @@
         "Shadow": "X Large",
         "Location": "River",
         "Time": "4 AM - 9 PM",
-        "North Hem.": "Jun - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "Jun - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/f/fe/Dorado_NH_Icon.png/120px-Dorado_NH_Icon.png"
     },
     {
@@ -245,8 +245,8 @@
         "Shadow": "Large",
         "Location": "Ocean",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Nov - Mar",
-        "South Hem.": "May - Sept",
+        "NorthHem": "Nov - Mar",
+        "SouthHem": "May - Sept",
         "IconUrl": "https://dodo.ac/np/images/thumb/3/34/Football_Fish_NH_Icon.png/120px-Football_Fish_NH_Icon.png"
     },
     {
@@ -255,8 +255,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/ec/Freshwater_Goby_NH_Icon.png/120px-Freshwater_Goby_NH_Icon.png"
     },
     {
@@ -265,8 +265,8 @@
         "Shadow": "Small",
         "Location": "Pond",
         "Time": "All day",
-        "North Hem.": "May - Aug",
-        "South Hem.": "Sept - Nov",
+        "NorthHem": "May - Aug",
+        "SouthHem": "Sept - Nov",
         "IconUrl": "https://dodo.ac/np/images/thumb/2/2f/Frog_NH_Icon.png/120px-Frog_NH_Icon.png"
     },
     {
@@ -275,8 +275,8 @@
         "Shadow": "Largest",
         "Location": "Pond",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Jul - Oct",
-        "South Hem.": "Jan - April",
+        "NorthHem": "Jul - Oct",
+        "SouthHem": "Jan - April",
         "IconUrl": "https://dodo.ac/np/images/thumb/a/a2/Gar_NH_Icon.png/120px-Gar_NH_Icon.png"
     },
     {
@@ -285,8 +285,8 @@
         "Shadow": "Large",
         "Location": "Pier",
         "Time": "All day",
-        "North Hem.": "May - Oct",
-        "South Hem.": "Nov - Apr",
+        "NorthHem": "May - Oct",
+        "SouthHem": "Nov - Apr",
         "IconUrl": "https://dodo.ac/np/images/thumb/1/17/Giant_Trevally_NH_Icon.png/120px-Giant_Trevally_NH_Icon.png"
     },
     {
@@ -295,8 +295,8 @@
         "Shadow": "X Large",
         "Location": "Pond",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "Jun - Aug",
-        "South Hem.": "Dec - Feb",
+        "NorthHem": "Jun - Aug",
+        "SouthHem": "Dec - Feb",
         "IconUrl": "https://dodo.ac/np/images/thumb/5/50/Giant_Snakehead_NH_Icon.png/120px-Giant_Snakehead_NH_Icon.png"
     },
     {
@@ -305,8 +305,8 @@
         "Shadow": "Medium",
         "Location": "River (Clifftop)",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Mar - May\r\n Sept - Nov",
-        "South Hem.": "Mar - May\r\n Sept - Nov",
+        "NorthHem": "Mar - May\r\n Sept - Nov",
+        "SouthHem": "Mar - May\r\n Sept - Nov",
         "IconUrl": "https://dodo.ac/np/images/thumb/f/fc/Golden_Trout_NH_Icon.png/120px-Golden_Trout_NH_Icon.png"
     },
     {
@@ -315,8 +315,8 @@
         "Shadow": "Smallest",
         "Location": "Pond",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/7/71/Goldfish_NH_Icon.png/120px-Goldfish_NH_Icon.png"
     },
     {
@@ -325,8 +325,8 @@
         "Shadow": "Largest (Fin)",
         "Location": "Ocean",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Jun - Sept",
-        "South Hem.": "Dec - March",
+        "NorthHem": "Jun - Sept",
+        "SouthHem": "Dec - March",
         "IconUrl": "https://dodo.ac/np/images/thumb/2/20/Great_White_Shark_NH_Icon.png/120px-Great_White_Shark_NH_Icon.png"
     },
     {
@@ -335,8 +335,8 @@
         "Shadow": "Smallest",
         "Location": "River",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "Apr - Nov",
-        "South Hem.": "Oct - May",
+        "NorthHem": "Apr - Nov",
+        "SouthHem": "Oct - May",
         "IconUrl": "https://dodo.ac/np/images/thumb/3/38/Guppy_NH_Icon.png/120px-Guppy_NH_Icon.png"
     },
     {
@@ -345,8 +345,8 @@
         "Shadow": "Largest (Fin)",
         "Location": "Ocean",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "June - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "June - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/ec/Hammerhead_Shark_NH_Icon.png/120px-Hammerhead_Shark_NH_Icon.png"
     },
     {
@@ -355,8 +355,8 @@
         "Shadow": "Small",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/a/a3/Horse_Mackerel_NH_Icon.png/120px-Horse_Mackerel_NH_Icon.png"
     },
     {
@@ -365,8 +365,8 @@
         "Shadow": "Smallest",
         "Location": "Pond",
         "Time": "All day",
-        "North Hem.": "Apr - Aug",
-        "South Hem.": "Oct - April",
+        "NorthHem": "Apr - Aug",
+        "SouthHem": "Oct - April",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/ea/Killifish_NH_Icon.png/120px-Killifish_NH_Icon.png"
     },
     {
@@ -375,8 +375,8 @@
         "Shadow": "Smallest",
         "Location": "River (Mouth)",
         "Time": "All day",
-        "North Hem.": "Sept",
-        "South Hem.": "Mar",
+        "NorthHem": "Sept",
+        "SouthHem": "Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/e1/King_Salmon_NH_Icon.png/120px-King_Salmon_NH_Icon.png"
     },
     {
@@ -385,8 +385,8 @@
         "Shadow": "Large",
         "Location": "Pond",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/2/2d/Koi_NH_Icon.png/120px-Koi_NH_Icon.png"
     },
     {
@@ -395,8 +395,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "Mar - May",
-        "South Hem.": "Sept - Nov",
+        "NorthHem": "Mar - May",
+        "SouthHem": "Sept - Nov",
         "IconUrl": "https://dodo.ac/np/images/thumb/a/a5/Loach_NH_Icon.png/120px-Loach_NH_Icon.png"
     },
     {
@@ -405,8 +405,8 @@
         "Shadow": "Large",
         "Location": "Pier",
         "Time": "All day",
-        "North Hem.": "May - Oct",
-        "South Hem.": "Nov - April",
+        "NorthHem": "May - Oct",
+        "SouthHem": "Nov - April",
         "IconUrl": "https://dodo.ac/np/images/thumb/d/d6/Mahi-Mahi_NH_Icon.png/120px-Mahi-Mahi_NH_Icon.png"
     },
     {
@@ -415,8 +415,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Sept - Nov",
-        "South Hem.": "Mar - May",
+        "NorthHem": "Sept - Nov",
+        "SouthHem": "Mar - May",
         "IconUrl": "https://dodo.ac/np/images/thumb/9/9d/Mitten_Crab_NH_Icon.png/120px-Mitten_Crab_NH_Icon.png"
     },
     {
@@ -425,8 +425,8 @@
         "Shadow": "X Large",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Aug - Oct",
-        "South Hem.": "Feb - Apr",
+        "NorthHem": "Aug - Oct",
+        "SouthHem": "Feb - Apr",
         "IconUrl": "https://dodo.ac/np/images/thumb/3/3e/Moray_Eel_NH_Icon.png/120px-Moray_Eel_NH_Icon.png"
     },
     {
@@ -435,8 +435,8 @@
         "Shadow": "Largest",
         "Location": "Ocean",
         "Time": "4 AM - 9 PM",
-        "North Hem.": "Jul-Aug",
-        "South Hem.": "Jan - Feb",
+        "NorthHem": "Jul-Aug",
+        "SouthHem": "Jan - Feb",
         "IconUrl": "https://dodo.ac/np/images/thumb/3/30/Napoleonfish_NH_Icon.png/120px-Napoleonfish_NH_Icon.png"
     },
     {
@@ -445,8 +445,8 @@
         "Shadow": "Smallest",
         "Location": "River",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "Apr - Nov",
-        "South Hem.": "Oct - May",
+        "NorthHem": "Apr - Nov",
+        "SouthHem": "Oct - May",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/42/Neon_Tetra_NH_Icon.png/120px-Neon_Tetra_NH_Icon.png"
     },
     {
@@ -455,8 +455,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "May - Sept",
-        "South Hem.": "Nov - Mar",
+        "NorthHem": "May - Sept",
+        "SouthHem": "Nov - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/0/0b/Nibble_Fish_NH_Icon.png/120px-Nibble_Fish_NH_Icon.png"
     },
     {
@@ -465,8 +465,8 @@
         "Shadow": "Largest",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Dec - May",
-        "South Hem.": "June - Nov",
+        "NorthHem": "Dec - May",
+        "SouthHem": "June - Nov",
         "IconUrl": "https://dodo.ac/np/images/thumb/5/50/Oarfish_NH_Icon.png/120px-Oarfish_NH_Icon.png"
     },
     {
@@ -475,8 +475,8 @@
         "Shadow": "Largest (Fin)",
         "Location": "Ocean",
         "Time": "4 AM - 9 PM",
-        "North Hem.": "July - Sept",
-        "South Hem.": "Jan - Mar",
+        "NorthHem": "July - Sept",
+        "SouthHem": "Jan - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/eb/Ocean_Sunfish_NH_Icon.png/120px-Ocean_Sunfish_NH_Icon.png"
     },
     {
@@ -485,8 +485,8 @@
         "Shadow": "Large",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/b/b3/Olive_Flounder_NH_Icon.png/120px-Olive_Flounder_NH_Icon.png"
     },
     {
@@ -495,8 +495,8 @@
         "Shadow": "Smallest",
         "Location": "River",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/e2/Pale_Chub_NH_Icon.png/120px-Pale_Chub_NH_Icon.png"
     },
     {
@@ -505,8 +505,8 @@
         "Shadow": "X Large",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "Sept - Dec",
-        "South Hem.": "Mar - June",
+        "NorthHem": "Sept - Dec",
+        "SouthHem": "Mar - June",
         "IconUrl": "https://dodo.ac/np/images/thumb/9/9f/Pike_NH_Icon.png/120px-Pike_NH_Icon.png"
     },
     {
@@ -515,8 +515,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "9 AM - 4 PM\r\n 9 PM - 4 AM",
-        "North Hem.": "June - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "June - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/c/c6/Piranha_NH_Icon.png/120px-Piranha_NH_Icon.png"
     },
     {
@@ -525,8 +525,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "Dec - Feb",
-        "South Hem.": "June - Aug",
+        "NorthHem": "Dec - Feb",
+        "SouthHem": "June - Aug",
         "IconUrl": "https://dodo.ac/np/images/thumb/0/0f/Pond_Smelt_NH_Icon.png/120px-Pond_Smelt_NH_Icon.png"
     },
     {
@@ -535,8 +535,8 @@
         "Shadow": "Smallest",
         "Location": "Pond",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/0/0d/Pop-Eyed_Goldfish_NH_Icon.png/120px-Pop-Eyed_Goldfish_NH_Icon.png"
     },
     {
@@ -545,8 +545,8 @@
         "Shadow": "Medium",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "July - Sept",
-        "South Hem.": "Jan - Mar",
+        "NorthHem": "July - Sept",
+        "SouthHem": "Jan - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/ee/Puffer_Fish_NH_Icon.png/120px-Puffer_Fish_NH_Icon.png"
     },
     {
@@ -555,8 +555,8 @@
         "Shadow": "Small",
         "Location": "River",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "May - Oct",
-        "South Hem.": "Nov - Apr",
+        "NorthHem": "May - Oct",
+        "SouthHem": "Nov - Apr",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/e7/Rainbowfish_NH_Icon.png/120px-Rainbowfish_NH_Icon.png"
     },
     {
@@ -565,8 +565,8 @@
         "Shadow": "Small",
         "Location": "Pond",
         "Time": "9 AM - 4 PM",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/3/35/Ranchu_Goldfish_NH_Icon.png/120px-Ranchu_Goldfish_NH_Icon.png"
     },
     {
@@ -575,8 +575,8 @@
         "Shadow": "X Large",
         "Location": "Ocean",
         "Time": "4 AM - 9 PM",
-        "North Hem.": "Aug - Nov",
-        "South Hem.": "Feb - May",
+        "NorthHem": "Aug - Nov",
+        "SouthHem": "Feb - May",
         "IconUrl": "https://dodo.ac/np/images/thumb/9/9b/Ray_NH_Icon.png/120px-Ray_NH_Icon.png"
     },
     {
@@ -585,8 +585,8 @@
         "Shadow": "Large",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/c/c1/Red_Snapper_NH_Icon.png/120px-Red_Snapper_NH_Icon.png"
     },
     {
@@ -595,8 +595,8 @@
         "Shadow": "Narrow",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "July - Oct",
-        "South Hem.": "Jan - Apr",
+        "NorthHem": "July - Oct",
+        "SouthHem": "Jan - Apr",
         "IconUrl": "https://dodo.ac/np/images/thumb/2/26/Ribbon_Eel_NH_Icon.png/120px-Ribbon_Eel_NH_Icon.png"
     },
     {
@@ -605,8 +605,8 @@
         "Shadow": "Large",
         "Location": "River",
         "Time": "9 PM - 4 AM",
-        "North Hem.": "Jun - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "Jun - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/46/Saddled_Bichir_NH_Icon.png/120px-Saddled_Bichir_NH_Icon.png"
     },
     {
@@ -615,8 +615,8 @@
         "Shadow": "Small",
         "Location": "River (Mouth)",
         "Time": "All day",
-        "North Hem.": "Sept",
-        "South Hem.": "Mar",
+        "NorthHem": "Sept",
+        "SouthHem": "Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/c/ca/Salmon_NH_Icon.png/120px-Salmon_NH_Icon.png"
     },
     {
@@ -625,8 +625,8 @@
         "Shadow": "Largest (Fin)",
         "Location": "Ocean",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Jun - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "Jun - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/45/Saw_Shark_NH_Icon.png/120px-Saw_Shark_NH_Icon.png"
     },
     {
@@ -635,8 +635,8 @@
         "Shadow": "X Large",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "All year",
-        "South Hem.": "All year",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/7/7f/Sea_Bass_NH_Icon.png/120px-Sea_Bass_NH_Icon.png"
     },
     {
@@ -645,8 +645,8 @@
         "Shadow": "Smallest",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Dec - Mar",
-        "South Hem.": "June - Sept",
+        "NorthHem": "Dec - Mar",
+        "SouthHem": "June - Sept",
         "IconUrl": "https://dodo.ac/np/images/thumb/f/f7/Sea_Butterfly_NH_Icon.png/120px-Sea_Butterfly_NH_Icon.png"
     },
     {
@@ -655,8 +655,8 @@
         "Shadow": "Smallest",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Apr - Nov",
-        "South Hem.": "Oct - May",
+        "NorthHem": "Apr - Nov",
+        "SouthHem": "Oct - May",
         "IconUrl": "https://dodo.ac/np/images/thumb/d/dc/Sea_Horse_NH_Icon.png/120px-Sea_Horse_NH_Icon.png"
     },
     {
@@ -665,8 +665,8 @@
         "Shadow": "X Large",
         "Location": "River",
         "Time": "9 PM - 4 AM",
-        "North Hem.": "Apr - Oct",
-        "South Hem.": "Oct - April",
+        "NorthHem": "Apr - Oct",
+        "SouthHem": "Oct - April",
         "IconUrl": "https://dodo.ac/np/images/thumb/b/b1/Snapping_Turtle_NH_Icon.png/120px-Snapping_Turtle_NH_Icon.png"
     },
     {
@@ -675,8 +675,8 @@
         "Shadow": "Large",
         "Location": "River",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Aug - Sept",
-        "South Hem.": "Feb - Mar",
+        "NorthHem": "Aug - Sept",
+        "SouthHem": "Feb - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/eb/Soft-Shelled_Turtle_NH_Icon.png/120px-Soft-Shelled_Turtle_NH_Icon.png"
     },
     {
@@ -685,8 +685,8 @@
         "Shadow": "Medium",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "Dec - Aug",
-        "South Hem.": "June - Feb",
+        "NorthHem": "Dec - Aug",
+        "SouthHem": "June - Feb",
         "IconUrl": "https://dodo.ac/np/images/thumb/b/bf/Squid_NH_Icon.png/120px-Squid_NH_Icon.png"
     },
     {
@@ -695,8 +695,8 @@
         "Shadow": "Largest",
         "Location": "River (Level 2/3)",
         "Time": "4 PM - 9 AM",
-        "North Hem.": "Dec - Mar",
-        "South Hem.": "June - Sept",
+        "NorthHem": "Dec - Mar",
+        "SouthHem": "June - Sept",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/eb/Stringfish_NH_Icon.png/120px-Stringfish_NH_Icon.png"
     },
     {
@@ -705,8 +705,8 @@
         "Shadow": "Largest",
         "Location": "River (Mouth)",
         "Time": "All day",
-        "North Hem.": "Sept - Mar",
-        "South Hem.": "Mar - Sept",
+        "NorthHem": "Sept - Mar",
+        "SouthHem": "Mar - Sept",
         "IconUrl": "https://dodo.ac/np/images/thumb/9/91/Sturgeon_NH_Icon.png/120px-Sturgeon_NH_Icon.png"
     },
     {
@@ -715,8 +715,8 @@
         "Shadow": "(Fin)",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "June - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "June - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/d/de/Suckerfish_NH_Icon.png/120px-Suckerfish_NH_Icon.png"
     },
     {
@@ -725,8 +725,8 @@
         "Shadow": "Small",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "April - Sept",
-        "South Hem.": "Oct - Mar",
+        "NorthHem": "April - Sept",
+        "SouthHem": "Oct - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/c/cb/Surgeonfish_NH_Icon.png/120px-Surgeonfish_NH_Icon.png"
     },
     {
@@ -735,8 +735,8 @@
         "Shadow": "Medium",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "July - Sept",
-        "South Hem.": "Jan - Mar",
+        "NorthHem": "July - Sept",
+        "SouthHem": "Jan - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/6/6a/Sweetfish_NH_Icon.png/120px-Sweetfish_NH_Icon.png"
     },
     {
@@ -745,8 +745,8 @@
         "Shadow": "Smallest",
         "Location": "Pond",
         "Time": "All day",
-        "North Hem.": "Mar - July",
-        "South Hem.": "Sept - Jan",
+        "NorthHem": "Mar - July",
+        "SouthHem": "Sept - Jan",
         "IconUrl": "https://dodo.ac/np/images/thumb/b/bb/Tadpole_NH_Icon.png/120px-Tadpole_NH_Icon.png"
     },
     {
@@ -755,8 +755,8 @@
         "Shadow": "Medium",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "June - Oct",
-        "South Hem.": "Dec - Apr",
+        "NorthHem": "June - Oct",
+        "SouthHem": "Dec - Apr",
         "IconUrl": "https://dodo.ac/np/images/thumb/e/ef/Tilapia_NH_Icon.png/120px-Tilapia_NH_Icon.png"
     },
     {
@@ -765,8 +765,8 @@
         "Shadow": "X Large",
         "Location": "Pier",
         "Time": "All day",
-        "North Hem.": "Nov - Apr",
-        "South Hem.": "May - Oct",
+        "NorthHem": "Nov - Apr",
+        "SouthHem": "May - Oct",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/4b/Tuna_NH_Icon.png/120px-Tuna_NH_Icon.png"
     },
     {
@@ -775,8 +775,8 @@
         "Shadow": "Largest (Fin)",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "June - Sept",
-        "South Hem.": "Dec - Mar",
+        "NorthHem": "June - Sept",
+        "SouthHem": "Dec - Mar",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/4f/Whale_Shark_NH_Icon.png/120px-Whale_Shark_NH_Icon.png"
     },
     {
@@ -785,8 +785,8 @@
         "Shadow": "Medium",
         "Location": "River",
         "Time": "All day",
-        "North Hem.": "Oct - Mar",
-        "South Hem.": "Apr - Sept",
+        "NorthHem": "Oct - Mar",
+        "SouthHem": "Apr - Sept",
         "IconUrl": "https://dodo.ac/np/images/thumb/6/67/Yellow_Perch_NH_Icon.png/120px-Yellow_Perch_NH_Icon.png"
     },
     {
@@ -795,8 +795,8 @@
         "Shadow": "Medium",
         "Location": "Ocean",
         "Time": "All day",
-        "North Hem.": "April - May\r\n July - Nov",
-        "South Hem.": "Jan - May\r\n Oct - Nov",
+        "NorthHem": "April - May\r\n July - Nov",
+        "SouthHem": "Jan - May\r\n Oct - Nov",
         "IconUrl": "https://dodo.ac/np/images/thumb/8/85/Zebra_Turkeyfish_NH_Icon.png/120px-Zebra_Turkeyfish_NH_Icon.png"
     }
 ]

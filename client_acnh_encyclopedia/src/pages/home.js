@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useContentContext } from "../context/contentContext";
 import { FaFish, FaBug } from "react-icons/fa";
-import { TbChartBubbleFilled } from "react-icons/tb";
+import { TbChartBubbleFilled,TbMapNorth,TbMapSouth } from "react-icons/tb";
 import "./PageStyles.css";
 
 import FishCard from "../components/fishCard";
@@ -29,7 +29,7 @@ function Home() {
         .then((data) => {
           // Handle the JSON data
           setFishData(data);
-          console.log(data[0]);
+          // console.log(data[0]);
         })
         .catch((error) => {
           console.error("There was a problem with the fetch operation:", error);
@@ -66,26 +66,35 @@ function Home() {
           <p>default val</p>
         </button>
       </header>
-      <main className="creature__box">
+      <main >
           {contentType === 'FISH' ? 
-          <div  className="creature__box__scrollable"
-          >
+          <section>
+          <div className="creature__box">
+          <div  className="creature__box__scrollable">
             {fishData.map((fishItem) => (
               <FishCard
               key={fishItem.Fish}
-              fishIcon={fishItem.IconUrl}
+              fishObject={fishItem}
               // isSelected={{}}
               />
-              
             ))}
           </div>
+          </div>
+          <div>
+              <h2>Fish: {contentContext.creatureObject.Fish}</h2>
+              <p>Available: (N) - {contentContext.creatureObject.NorthHem} | <TbMapSouth/> - {contentContext.creatureObject.SouthHem}</p>
+              <p>Location: {contentContext.creatureObject.Location}</p>
+              <p>Time: {contentContext.creatureObject.Time}</p>
+              <p>Shadow: {contentContext.creatureObject.Shadow}</p>
+              
+          </div>
+
+          </section>
           :contentType ==='BUG' ? <div>big</div>
           :contentType === 'DIVE' ? <div>dive</div>
           :"loading"
 
           }
-          
-
 
       </main>
     </div>

@@ -1,11 +1,28 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
 import './ComponentStyles.css'
-function FishCard({fishName,fishIcon, isCaught, isSelected }) {
+import { useContentContext } from "../context/contentContext";
+function FishCard({fishObject }) {
+    const context = useContentContext();
+    
+    const [selected, setSelected] = useState(false)
+    const handleClick = ()=> {
+        context.updateCurrentCreature(fishObject.Fish)
+        context.updateCreatureObject(fishObject)
+        // setSelected(true)
+    };
+    // useEffect(()=>{
+    //     let currentCreature = context.currentCreature;
+    //     // console.log(currentCreature)
+    //     // if(currentCreature !== fishName){
+    //     //     setSelected(false)
+    //     // }
+    // },[])
   return (
     <button 
-    className={isSelected ? 'fish__card card__selected' : 'fish__card'}
+    className={selected ? 'fish__card card__selected' : 'fish__card'}
+    onClick={handleClick}
     >
-        <img src={fishIcon} alt={fishName}></img>
+        <img src={fishObject.IconUrl} alt={fishObject.Fish}></img>
     </button>
   )
 }
