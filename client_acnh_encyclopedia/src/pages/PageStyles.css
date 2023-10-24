@@ -91,16 +91,50 @@
     justify-content: center;
     /* background-color: red; */
     padding: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+.fish__data__title{
+    position: absolute;
+    width: 800px;
+    top: 0;
+    /* left: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    /* margin: 15px; */
+   
+}
+.fish__data__title h3{
+    font-size: 30px !important;
+    font-weight: bold;
 }
 .fish__data__img{
-    width: 400px;
+    width: 220px;
     display: flex;
     align-items: center;
     flex-direction: column;
     /* background-color: yellowgreen; */
 }
+.fish__data__img div{
+border-radius: 5px;
+width: 200px;
+display: flex;
+align-items: center;
+justify-self: center;
+position: relative;
+/* margin-top: 10px; */
+border: 0.1px solid grey;
+background-color: rgba(0, 0, 0, 0.087);
+border-radius: 5px;
+}
+.fish__data__img div img{
+    margin-left: auto;
+    margin-right: auto;
+}
 .fish__data__items{
-    width: 700px;
+    width: 580px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;

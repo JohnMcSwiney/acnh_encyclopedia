@@ -89,8 +89,11 @@ function Home() {
             </div>
             <div>
               <div className="fish__data__cont">
+                <section className="fish__data__title">
+                <h3>{contentContext.creatureObject.Fish}</h3>
+                </section>
                 <section className="fish__data__img">
-                  <h3>{contentContext.creatureObject.Fish}</h3>
+                  
                   <div>
                     <img src={contentContext.creatureObject.IconUrl}></img>
                   </div>
