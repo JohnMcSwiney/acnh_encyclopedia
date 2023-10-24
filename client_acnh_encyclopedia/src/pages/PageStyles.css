@@ -82,3 +82,61 @@
         gap: 2px;
 
 }
+
+
+/* Fish */
+.fish__data__cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: red; */
+}
+.fish__data__img{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: yellowgreen; */
+}
+.fish__data__items{
+    width: 700px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.data__item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 30px;
+}
+.data__item span{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 0.373);
+    font-size: 20px;
+    font: var(--font--fam);
+    margin-left: 10px;
+    padding: 2.5px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.data__item span p{
+    font-size: 13.5px;
+}
+.icon{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 15px;
+    margin-right: 5px;
+}
+.north{
+ rotate: -90deg;
+}
+.south{
+ rotate: 90deg;
+}

@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useContentContext } from "../context/contentContext";
-import { FaFish, FaBug } from "react-icons/fa";
-import { TbChartBubbleFilled,TbMapNorth,TbMapSouth } from "react-icons/tb";
+import { FaFish, FaBug, FaLocationDot } from "react-icons/fa";
+import { TbChartBubbleFilled, TbMapNorth, TbMapSouth } from "react-icons/tb";
+import { PiCircleHalfFill } from "react-icons/pi";
+import { MdLocationOn } from "react-icons/md";
+import { BiTimeFive } from "react-icons/bi";
+
+// FaFish
 import "./PageStyles.css";
 
 import FishCard from "../components/fishCard";
@@ -16,30 +21,32 @@ function Home() {
   const [data, setData] = useState([{}]);
   const [fishData, setFishData] = useState([{}]);
   useEffect(() => {
-      fetch("http://localhost:8000/fish", {
-        method: "GET",
-        credentials: "include",
+    fetch("http://localhost:8000/fish", {
+      method: "GET",
+      credentials: "include",
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json(); // Parse the response as JSON
       })
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error("Network response was not ok");
-          }
-          return response.json(); // Parse the response as JSON
-        })
-        .then((data) => {
-          // Handle the JSON data
-          setFishData(data);
-          // console.log(data[0]);
-        })
-        .catch((error) => {
-          console.error("There was a problem with the fetch operation:", error);
-        });
+      .then((data) => {
+        // Handle the JSON data
+        setFishData(data);
+        // console.log(data[0]);
+      })
+      .catch((error) => {
+        console.error("There was a problem with the fetch operation:", error);
+      });
   }, []);
   return (
     <div className="page__container">
       <header className="selector__box">
         <button
-          className={contentType === "FISH" ? "fish__btn selected " : "fish__btn"}
+          className={
+            contentType === "FISH" ? "fish__btn selected " : "fish__btn"
+          }
           onClick={() => contentContext.updateContentVal("FISH")}
         >
           <p>Fish</p> <FaFish />
@@ -66,36 +73,86 @@ function Home() {
           <p>default val</p>
         </button>
       </header>
-      <main >
-          {contentType === 'FISH' ? 
+      <main>
+        {contentType === "FISH" ? (
           <section>
-          <div className="creature__box">
-          <div  className="creature__box__scrollable">
-            {fishData.map((fishItem) => (
-              <FishCard
-              key={fishItem.Fish}
-              fishObject={fishItem}
-              // isSelected={{}}
-              />
-            ))}
-          </div>
-          </div>
-          <div>
-              <h2>Fish: {contentContext.creatureObject.Fish}</h2>
-              <p>Available: (N) - {contentContext.creatureObject.NorthHem} | <TbMapSouth/> - {contentContext.creatureObject.SouthHem}</p>
-              <p>Location: {contentContext.creatureObject.Location}</p>
-              <p>Time: {contentContext.creatureObject.Time}</p>
-              <p>Shadow: {contentContext.creatureObject.Shadow}</p>
-              
-          </div>
+            <div className="creature__box">
+              <div className="creature__box__scrollable">
+                {fishData.map((fishItem) => (
+                  <FishCard
+                    key={fishItem.Fish}
+                    fishObject={fishItem}
+                    // isSelected={{}}
+                  />
+                ))}
+              </div>
+            </div>
+            <div>
+              <h2>Fish:</h2>
+              <div className="fish__data__cont">
+                <section className="fish__data__img">
+                  <h3>{contentContext.creatureObject.Fish}</h3>
+                  <div>
+                    <img src={contentContext.creatureObject.IconUrl}></img>
+                  </div>
+                </section>
 
+                <section className="fish__data__items">
+                  <div className="data__item">
+                    <p>Available:</p>
+
+                      <span>
+                        <p>North </p> <PiCircleHalfFill className="north icon" />  [
+                        {contentContext.creatureObject.NorthHem}]
+                      </span>
+
+                      <span>
+                        <p>South </p> <PiCircleHalfFill className="south icon" />  [
+                        {contentContext.creatureObject.SouthHem}]
+                      </span>
+                  </div>
+
+                  <div className="data__item">
+                    <p>Location:</p>
+
+                      <span>
+                      <MdLocationOn className="icon" />[
+                    {contentContext.creatureObject.Location}]
+                      </span>
+
+                  </div>
+
+                  <div className="data__item">
+                    <p>Time:</p>
+
+                      <span>
+                      <BiTimeFive className="icon" />[
+                    {contentContext.creatureObject.Time}]
+                      </span>
+
+                  </div>
+
+                  <div className="data__item">
+                    <p>Shadow:</p>
+
+                      <span>
+                      <FaFish className="icon" />[
+                    {contentContext.creatureObject.Shadow}]
+                      </span>
+
+                  </div>
+
+                </section>
+              </div>
+            </div>
           </section>
-          :contentType ==='BUG' ? <div>big</div>
-          :contentType === 'DIVE' ? <div>dive</div>
-          :"loading"
-
-          }
-
+        ) : contentType === "BUG" ? (
+          <div>big</div>
+        ) : contentType === "DIVE" ? (
+          <div>dive</div>
+        ) : (
+          "loading"
+        )}
       </main>
     </div>
   );
