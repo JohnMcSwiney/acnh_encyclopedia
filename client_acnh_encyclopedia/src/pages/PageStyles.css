@@ -90,6 +90,7 @@
     flex-direction: row;
     justify-content: center;
     /* background-color: red; */
+    padding: 40px;
 }
 .fish__data__img{
     width: 400px;

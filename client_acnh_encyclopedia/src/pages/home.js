@@ -88,7 +88,6 @@ function Home() {
               </div>
             </div>
             <div>
-              <h2>Fish:</h2>
               <div className="fish__data__cont">
                 <section className="fish__data__img">
                   <h3>{contentContext.creatureObject.Fish}</h3>

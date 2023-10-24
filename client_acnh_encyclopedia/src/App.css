@@ -80,3 +80,28 @@ p {
 span{
   font-family: 'Playpen Sans', sans-serif;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var( --wenge) #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #56565632;
+    border-radius: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--wenge);
+    border-radius: 8px;
+    border: 2px solid var(--bistre);
+    /* width: 80%; */
+  }
