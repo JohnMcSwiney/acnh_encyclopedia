@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --bg: #ffffff;
   --font: #000000;
@@ -20,88 +21,262 @@
   --emerald: hsla(149, 69%, 51%, 1);
 
   --font--fam: 'Raleway', sans-serif;
-  --font--fam--2:'Playpen Sans', cursive, sans-serif;
-  
+  --font--fam--2: 'Playpen Sans', cursive, sans-serif;
+
 }
+
+/* Screen sizes:
+320px — 480px: Mobile devices                 @media only screen and (max-width: 480px) {}
+481px — 768px: iPads, Tablets                 @media only screen and (min-width: 481px) and (max-width: 768px) {}
+769px — 1024px: Small screens, laptops        @media only screen and (min-width: 769px) and (max-width: 1024px) {}
+1025px — 1200px: Desktops, large screens      @media only screen and (min-width: 1025px) and (max-width: 1200px) {}
+1201px and more —  Extra large screens, TV    @media only screen and (min-width: 1201px) {}
+* https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/ *
+*/
+
 /* Global Styles */
-*{
+/* Base styles for every class, width and other things are controlled with media queries */
+* {
   font-family: var(--font--fam);
 }
-.app__container{
-margin: 0;
-padding: 0;
-background-color: var(--maize);
-top: 70px;
-width: 100%;
-position: absolute;
-left: 0;
-overflow: hidden;
-height: 100%;
-z-index: 1;
+
+.app__container {
+  margin: 0;
+  padding: 0;
+  /* background-color: var(--maize); */
+  top: 70px;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
 
 }
-.page__container{
+
+.page__container {
   background-color: tan;
-  width: 100%;
   z-index: 100;
   box-sizing: border-box;
-  margin-right: 15px; /* scrollbar*/
-  padding: 10px;
 }
-/* Removing Default Margin & Size */
 
+/* Removing Default Margin & Font*/
 h1 {
   margin: 0;
   padding: 0;
-  font-size: 40px;
   font-family: var(--font--fam);
 }
 
 h2 {
   margin: 0;
   padding: 0;
-  font-size: 30px;
   font-family: var(--font--fam);
 }
 
 h3 {
   margin: 0;
   padding: 0;
-  font-size: 25px;
   font-weight: bold;
   font-family: var(--font--fam);
 }
+
 p {
   margin: 0;
   padding: 0;
-  font-size: 20px;
   font-family: 'Raleway', sans-serif;
 }
-span{
+
+span {
   font-family: 'Playpen Sans', sans-serif;
 }
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: var( --wenge) #ffffff;
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--wenge) #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #56565632;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--wenge);
+  border-radius: 8px;
+  border: 2px solid var(--bistre);
+  /* width: 80%; */
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+  .app__container {
+    background-color: red;
+    width: 100%;
+    /* height: 100%; */
+    height: fit-content;
   }
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+  .page__container {
+    width: 100%;
+    margin-right: 15px;
+    /* scrollbar*/
+    padding: 10px;
   }
 
-  *::-webkit-scrollbar-track {
-    background: #56565632;
-    border-radius: 8px;
+  /* Removing Default Size */
+  h1 {
+    /* font-weight: bold; */
+    font-size: 19px;
   }
 
-  *::-webkit-scrollbar-thumb {
-    background-color: var(--wenge);
-    border-radius: 8px;
-    border: 2px solid var(--bistre);
-    /* width: 80%; */
+  h2 {
+    font-size: 18px;
   }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .app__container {
+    background-color: rgb(255, 153, 0);
+    width: 100%;
+    height: 100%;
+  }
+
+  .page__container {
+    width: 100%;
+    margin-right: 15px;
+    /* scrollbar*/
+    padding: 10px;
+  }
+
+  /* Removing Default Size */
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+}
+
+/* Small Screen Styles */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .app__container {
+    background-color: rgb(255, 255, 0);
+    width: 100%;
+    height: 100%;
+  }
+
+  .page__container {
+    width: 100%;
+    margin-right: 15px;
+    /* scrollbar*/
+    padding: 10px;
+  }
+
+  /* Removing Default Size */
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+/* Desktop Screen Styles */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .app__container {
+    background-color: rgb(4, 255, 0);
+    width: 100%;
+    height: 100%;
+  }
+
+  .page__container {
+    width: 100%;
+    margin-right: 15px;
+    /* scrollbar*/
+    padding: 10px;
+  }
+
+  /* Removing Default Size */
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+}
+
+/* Large Screen Styles */
+@media only screen and (min-width: 1201px) {
+  .app__container {
+    background-color: rgb(0, 149, 255);
+    width: 100%;
+    height: 100%;
+  }
+
+  .page__container {
+    width: 100%;
+    margin-right: 15px;
+    /* scrollbar*/
+    padding: 10px;
+  }
+
+  /* Removing Default Size */
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 33px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 28px;
+  }
+}

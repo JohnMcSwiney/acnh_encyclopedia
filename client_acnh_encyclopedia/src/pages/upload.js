@@ -45,6 +45,7 @@ function Upload() {
       reader.readAsText(file);
     }
   }
+  
   function processCSVData(data) {
     fetch("http://localhost:8000/upload-json", {
       method: "POST",

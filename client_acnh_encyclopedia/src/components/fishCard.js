@@ -10,13 +10,7 @@ function FishCard({fishObject }) {
         context.updateCreatureObject(fishObject)
         // setSelected(true)
     };
-    // useEffect(()=>{
-    //     let currentCreature = context.currentCreature;
-    //     // console.log(currentCreature)
-    //     // if(currentCreature !== fishName){
-    //     //     setSelected(false)
-    //     // }
-    // },[])
+
   return (
     <button 
     className={selected ? 'fish__card card__selected' : 'fish__card'}
