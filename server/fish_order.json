@@ -1,0 +1,97 @@
+{
+    "Bitterling": 1,
+    "Pale Chub": 2,
+    "Crucian Carp": 3,
+    "Dace": 4,
+    "Carp": 5,
+
+    "Koi": 6,
+    "Goldfish": 7,
+    "Pop-eyed Goldfish": 8,
+    "Ranchu Goldfish": 9,
+    "Killifish": 10,
+
+    "Crawfish": 11,
+    "Soft-shelled Turtle": 12,
+    "Snapping Turtle": 13,
+    "Tadpole": 14,
+    "Frog": 15,
+
+    "Freshwater Goby": 16,
+    "Loach": 17,
+    "Catfish": 18,
+    "Giant Snakehead": 19,
+    "Bluegill": 20,
+
+    "Yellow Perch": 21,
+    "Black Bass": 22,
+    "Tilapia": 23,
+    "Pike": 24,
+    "Pond Smelt": 25,
+
+    "Sweetfish": 26,
+    "Cherry salmon": 27,
+    "Char": 28,
+    "Golden trout": 29,
+    "Stringfish": 30,
+
+    "Salmon": 31,
+    "King Salmon": 32,
+    "Mitten crab": 33,
+    "Guppy": 34,
+    "Nibble Fish": 35,
+
+    "Anglefish": 36,
+    "Betta": 37,
+    "Neon Tetra": 38,
+    "Rainbowfish": 39,
+    "Piranha": 40,
+
+    "Arowana": 41,
+    "Dorado": 42,
+    "Gar": 43,
+    "Arapaima": 44,
+    "Saddled Bichir": 45,
+
+    "Sturgeon": 46,
+    "Sea butterfly": 47,
+    "Seahorse": 48,
+    "Clownfish": 49,
+    "Surgeonfish": 50,
+
+    "Butterfly fish": 51,
+    "Napoleonfish": 52,
+    "Zebra turkeyfish": 53,
+    "Blowfish": 54,
+    "Pufferfish": 55,
+
+    "Anchovy": 56,
+    "Horse Mackerel": 57,
+    "Barred Knifejaw": 58,
+    "Seabass": 59,
+    "Red Snapper": 60,
+
+    "Dab": 61,
+    "Olive Flounder": 62,
+    "Squid": 63,
+    "Moray Eel": 64,
+    "Ribbon eel": 65,
+
+    "Tuna": 66,
+    "Blue Marlin": 67,
+    "Giant Trevally": 68,
+    "Mahi-mahi": 69,
+    "Ocean sunfish": 70,
+
+    "Ray": 71,
+    "Saw shark": 72,
+    "Hammerhead Shark": 73,
+    "Great White Shark": 74,
+    "Whale Shark": 75,
+
+    "Suckerfish": 76,
+    "Football fish": 77,
+    "Oarfish": 78,
+    "Barreleye": 79,
+    "Coelacanth": 80
+}

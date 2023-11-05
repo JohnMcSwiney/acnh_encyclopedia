@@ -12,6 +12,8 @@ def split_and_clean_names(name):
     # print(split_names)
     return [split_name for split_name in split_names]
 
+
+
 # Read the JSON file containing fish data
 with open('fish_data.json', 'r') as json_file:
     fish_data = json.load(json_file)
@@ -20,6 +22,11 @@ with open('fish_data.json', 'r') as json_file:
 with open('image_links.json', 'r') as json_file:
     data = json.load(json_file)
     urls = data["urls"]
+
+with open('fish_order.json', 'r') as json_file:
+     list_order = json.load(json_file)
+
+
 
 combined_data = []
 foundUrls = []
@@ -111,10 +118,44 @@ if len(fish_data) == len(combined_data):
                                       "SouthHem": fish['South Hem.'],
                                       "IconUrl": fishIcons['IconUrl']})
                 
+    # Assuming your fish names are case-insensitive, and there might be white spaces
+    # Create a dictionary for fish order (with all lowercased keys)
+    cleaned_list_order = {name.lower(): order for name, order in list_order.items()}
+    # Merge the fish data and order data
+    merged_fish_data = []
+
+    for fish_entry in completedFish:
+        fish_name = fish_entry["Fish"]
+        if fish_name.lower() in cleaned_list_order:
+            # print(fish_name.lower())
+            # print()
+            fish_order = cleaned_list_order[fish_name.lower()]
+            fish_entry["fishOrder"] = fish_order
+            merged_fish_data.append(fish_entry)
+
+    # Sort the merged data by fish order
+    sorted_merged_data = sorted(merged_fish_data, key=lambda x: x["fishOrder"])
+
+    # Print the sorted and merged fish data
+    # for fish_entry in sorted_merged_data:
+    #     print(fish_entry)
+    # Use a case-insensitive and whitespace-stripped fish name to do the lookup
+    sorted_data = sorted(completedFish, key=lambda x: cleaned_list_order.get(x["Fish"].strip().lower(), float('inf')))
+
+    # # Sort the fish_data list based on the order from the JSON
+    # sorted_data = sorted(completedFish, key=lambda x: list_order[x["Fish"]])
+
+    # Create a list of sorted fish names
+    # sorted_fish_names = [entry["Fish"] for entry in sorted_data]
+
+    # Print the sorted fish names
+    # for fish_name in sorted_fish_names:
+    #     print(fish_name)
+
     
     # after completing all the fish, save to a new json
     with open('fish_data_complete.json', 'w') as output_json_file:
-        json.dump(completedFish, output_json_file, indent=4)
+        json.dump(sorted_data, output_json_file, indent=4)
     print("Completed fish saved to fish_data_complete.json")
     
 

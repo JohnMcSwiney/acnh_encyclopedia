@@ -34,12 +34,15 @@ function Home() {
       .then((data) => {
         // Handle the JSON data
         setFishData(data);
+        // setFish_order(fish_order_json)
         // console.log(data[0]);
       })
       .catch((error) => {
         console.error("There was a problem with the fetch operation:", error);
       });
   }, []);
+
+  
   return (
     <div className="page__container">
       <header className="selector__box">
