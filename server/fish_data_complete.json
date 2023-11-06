@@ -385,6 +385,17 @@
         "fishOrder": 35
     },
     {
+        "Fish": "Angelfish",
+        "Price": "3,000",
+        "Shadow": "Small",
+        "Location": "River",
+        "Time": "4 PM - 9 AM",
+        "NorthHem": "May - Oct",
+        "SouthHem": "Nov - Apr",
+        "IconUrl": "https://dodo.ac/np/images/thumb/c/cd/Angelfish_NH_Icon.png/120px-Angelfish_NH_Icon.png",
+        "fishOrder": 36
+    },
+    {
         "Fish": "Betta",
         "Price": "2,500",
         "Shadow": "Small",
@@ -583,6 +594,17 @@
         "fishOrder": 54
     },
     {
+        "Fish": "Puffer Fish",
+        "Price": "250",
+        "Shadow": "Medium",
+        "Location": "Ocean",
+        "Time": "All day",
+        "NorthHem": "July - Sept",
+        "SouthHem": "Jan - Mar",
+        "IconUrl": "https://dodo.ac/np/images/thumb/e/ee/Puffer_Fish_NH_Icon.png/120px-Puffer_Fish_NH_Icon.png",
+        "fishOrder": 55
+    },
+    {
         "Fish": "Anchovy",
         "Price": "200",
         "Shadow": "Small",
@@ -614,6 +636,17 @@
         "SouthHem": "Sept - May",
         "IconUrl": "https://dodo.ac/np/images/thumb/d/d5/Barred_Knifejaw_NH_Icon.png/120px-Barred_Knifejaw_NH_Icon.png",
         "fishOrder": 58
+    },
+    {
+        "Fish": "Sea bass",
+        "Price": "400",
+        "Shadow": "X Large",
+        "Location": "Ocean",
+        "Time": "All day",
+        "NorthHem": "All year",
+        "SouthHem": "All year",
+        "IconUrl": "https://dodo.ac/np/images/thumb/7/7f/Sea_Bass_NH_Icon.png/120px-Sea_Bass_NH_Icon.png",
+        "fishOrder": 59
     },
     {
         "Fish": "Red snapper",
@@ -845,35 +878,5 @@
         "SouthHem": "All year",
         "IconUrl": "https://dodo.ac/np/images/thumb/4/45/Coelacanth_NH_Icon.png/120px-Coelacanth_NH_Icon.png",
         "fishOrder": 80
-    },
-    {
-        "Fish": "Angelfish",
-        "Price": "3,000",
-        "Shadow": "Small",
-        "Location": "River",
-        "Time": "4 PM - 9 AM",
-        "NorthHem": "May - Oct",
-        "SouthHem": "Nov - Apr",
-        "IconUrl": "https://dodo.ac/np/images/thumb/c/cd/Angelfish_NH_Icon.png/120px-Angelfish_NH_Icon.png"
-    },
-    {
-        "Fish": "Puffer Fish",
-        "Price": "250",
-        "Shadow": "Medium",
-        "Location": "Ocean",
-        "Time": "All day",
-        "NorthHem": "July - Sept",
-        "SouthHem": "Jan - Mar",
-        "IconUrl": "https://dodo.ac/np/images/thumb/e/ee/Puffer_Fish_NH_Icon.png/120px-Puffer_Fish_NH_Icon.png"
-    },
-    {
-        "Fish": "Sea bass",
-        "Price": "400",
-        "Shadow": "X Large",
-        "Location": "Ocean",
-        "Time": "All day",
-        "NorthHem": "All year",
-        "SouthHem": "All year",
-        "IconUrl": "https://dodo.ac/np/images/thumb/7/7f/Sea_Bass_NH_Icon.png/120px-Sea_Bass_NH_Icon.png"
     }
 ]
