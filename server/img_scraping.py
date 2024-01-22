@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 # URL of the web page to scrape
-url = 'https://nookipedia.com/wiki/Category:New_Horizons_fish_icons'
+url = 'https://nookipedia.com/wiki/Category:New_Horizons_sea_creature_icons'
 
 # Send an HTTP request to the web page
 response = requests.get(url)
@@ -23,7 +23,7 @@ if response.status_code == 200:
     data = {"urls": image_links}
 
     # Save the data to a JSON file
-    with open('image_links.json', 'w') as json_file:
+    with open('dive_image_links.json', 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
     print("Image links saved to 'image_links.json'")
